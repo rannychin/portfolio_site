@@ -35,12 +35,19 @@
   color: #11bb9a;
 }
 
+body {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+}
+
 .section {
-  height: 80vh;
+  padding: 7em;
+  height: calc(100vh - 14em);
+  scroll-snap-align: center;
 }
 
 #Leadership {
-  background-color: #a388e8;
+  background-color: lightblue;
 }
 
 #Providers {
